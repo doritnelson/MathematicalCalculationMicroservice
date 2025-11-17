@@ -1,6 +1,7 @@
 import json
 
-calculation_request = [{
+calculation_request = {"request":
+[{
     "action":"total",
     "int_array":[2,5,2,7]
 },
@@ -17,8 +18,8 @@ calculation_request = [{
 },{
     "actio":"total",
     "int_array":[2,4,2,7]
-},
-]
+}]
+                       }
 
 json_str = json.dumps(calculation_request,indent=4)
 

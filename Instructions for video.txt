@@ -1,0 +1,17 @@
+#MathematicalCalcuationMicroservice (Microservice #4)
+#Authors: Dorit Dorsey & Kaedin Hanohano
+#Language: Python 3
+#Repository: https://github.com/doritnelson/MathematicalCalculationMicroservice
+#Contributions:
+#Dorit; completed the code and tested the code.
+#Kaedin; completed the README and created the video
+
+Instructions for running code in video:
+1) Open 2 terminals and navigate to directory with code
+2) Show text file is empty
+3) In one terminal run "python calculation_test.py" and open text file to show how code has inserted code into text file
+--Walk through text file to show that the request will ask the microservice to total, average and difference as well as test that it throws errors when it should.
+4) Delete code in text file and show empty text file again
+5) In the other terminal run "python mathematical_calculation_microservice.py" and show how text file is still empty even though microservice is running
+6) Run "python calculation_test.py" and show how the text file has been updated to the results for the requests.
+7) Show README
