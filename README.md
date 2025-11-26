@@ -92,6 +92,9 @@ Each operation in the request is handled separately, so one invalid item does no
 
 The client and microservice never call each other directly — all communication is done through calculation.txt.
 
+<img width="802" height="368" alt="image" src="https://github.com/user-attachments/assets/2b349aea-b9a9-45d9-8c79-ec10781eda0e" />
+
+
 ## Contributions
 
 Dorit: Created the microservice and fully tested the code. Also created the initial README file.
